@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+@font-face {
+   font-family: Pixeboy;
+   
+   src: url('Pixeboy.ttf');
+}
+
+#future {
+  position: absolute;
+  left: 20px;
+  top: 150px;
+  font-size: 0em;
+  animation-name: futureAnimation;
+  animation-duration: 3s;
+  animation-delay: 2s;  
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes futureAnimation {
+  from {font-size: 0em;}
+  to {font-size: 5em;}
+}
+#im {
+  position: absolute;
+  left: 290px;
+  top: 150px;
+  font-size: 0em;
+  animation-name: imAnimation;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes imAnimation {
+  from {font-size: 0em; top:550; }
+  to {font-size: 5em;}
+}
+
+#t {
+  position: absolute;
+  left: 250px;
+  top: 150px;
+  font-size: 0em;
+  animation-name: tAnimation;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes tAnimation {
+  from {font-size: 0em;  }
+  to {font-size: 5em;}
+}
+
+#e {
+  position: absolute;
+  left: 370px;
+  top: 150px;
+  font-size: 0em;
+  animation-name: eAnimation;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.colour {
+  position: absolute;
+  font-family: Pixeboy; 
+  color: yellow;
+  text-shadow: 0 0 4px black;
+}
+
+
+@keyframes eAnimation {
+  from {font-size: 0em;  }
+  to {font-size: 5em;}
+}
+</style>
+</head>
+<body>
+
+<p class='colour' id='future'>Future</p>
+<p class='colour' id='t'>T</p>
+<p class='colour' id='im'>IM</p>
+<p class='colour' id='e'>E</p>
+
+</body>
+</html>
